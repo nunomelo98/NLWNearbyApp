@@ -73,7 +73,7 @@ fun NearbyMarketCard(
                     .height(IntrinsicSize.Min)
                     .aspectRatio(ratio = 1f, matchHeightConstraintsFirst = true),
                 contentScale = ContentScale.Crop,
-                painter = painterResource(R.drawable.img_burger), // TODO: Substituir pela imagem de market.cover
+                painter = painterResource(R.drawable.img_burger), // para fazer Substituir pela imagem de market.cover
                 contentDescription = "Imagem do Estabelecimento"
             )
             Column {
