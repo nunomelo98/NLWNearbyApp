@@ -73,7 +73,7 @@ fun NearbyMarketCard(
                     .height(IntrinsicSize.Min)
                     .aspectRatio(ratio = 1f, matchHeightConstraintsFirst = true),
                 contentScale = ContentScale.Crop,
-                painter = painterResource(R.drawable.img_burger), // para fazer Substituir pela imagem de market.cover
+                painter = painterResource(R.drawable.img_burger), // TODO: Substituir pela imagem de market.cover
                 contentDescription = "Imagem do Estabelecimento"
             )
             Column {
@@ -118,7 +118,7 @@ private fun NearbyMarketCardPreview(){
         name = "Sabor Grill",
         description = "Churrascaria com cortes nobres e buffet variado. Experiência completa para os amantes de carne.",
         coupons = 10,
-        rules = emptyList(),
+        //rules = emptyList(),
         latitude = -23.55974230991911,
         longitude = -46.65814845249887,
         address = "Av. Paulista - Bela Vista",

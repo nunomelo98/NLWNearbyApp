@@ -1,7 +1,7 @@
 package com.nmwzd.nearby.data.model
 
 import androidx.annotation.DrawableRes
-
+import com.nmwzd.nearby.ui.component.category.CategoryFilterChipView
 
 
 /*
@@ -15,5 +15,5 @@ data class Category(
 ){
     @get:DrawableRes
     val icon: Int?
-        get() = CategoryFilterChipView.fromDescription(description  = name)?.icon
+        get() = CategoryFilterChipView.Companion.fromDescription(description  = name)?.icon
 }

@@ -4,18 +4,18 @@ import kotlinx.serialization.Serializable
 
 
 /*
-* Created by Nuno Melo on 1/3/2025.
+* Created by Nuno Melo on 1/13/2025.
 * Email : nuno.melo@nmwzd.com
 * Copyright (c) 2025 NMWZD. All rights reserved.
 */
 @Serializable
-data class Market(
+data class MarketDetails(
     val id: String,
     val categoryId: String,
     val name: String,
     val description: String,
+    val rules: List<Rule>,
     val coupons: Int,
-    //val rules: List<Rule> = emptyList(), isto é removido por causa do mapeamento da nossa API
     val latitude: Double,
     val longitude: Double,
     val address: String,
