@@ -1,7 +1,5 @@
 package com.nmwzd.nearby.ui.screen
 
-import android.window.SplashScreen
-
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -10,10 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.nmwzd.nearby.ui.theme.GreenLight
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.nmwzd.nearby.R
+import com.nmwzd.nearby.ui.theme.GreenLight
 import kotlinx.coroutines.delay
 
 

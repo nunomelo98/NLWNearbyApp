@@ -1,7 +1,6 @@
 package com.nmwzd.nearby.data.model.mock
 
 import com.nmwzd.nearby.data.model.Market
-import com.nmwzd.nearby.data.model.Rule
 
 
 /*
