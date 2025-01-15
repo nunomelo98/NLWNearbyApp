@@ -2,6 +2,7 @@ package com.nmwzd.nearby.data.model
 
 import androidx.annotation.DrawableRes
 import com.nmwzd.nearby.ui.component.category.CategoryFilterChipView
+import kotlinx.serialization.Serializable
 
 
 /*
@@ -9,6 +10,7 @@ import com.nmwzd.nearby.ui.component.category.CategoryFilterChipView
 * Email : nuno.melo@nmwzd.com
 * Copyright (c) 2024 NMWZD. All rights reserved.
 */
+@Serializable
 data class Category(
     val id: String,
     val name: String
